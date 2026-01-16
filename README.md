@@ -15,6 +15,7 @@ A PHP-based SQL query analyzer that helps identify potential issues and optimize
 - PHP 8.0 or higher
 - Composer (Dependency Manager for PHP)
 - Web server (Apache/Nginx) or PHP's built-in development server
+- If you want run server by **Docker**, just need **Docker desktop** in your computer.
 
 ## Installation
 
@@ -37,6 +38,11 @@ A PHP-based SQL query analyzer that helps identify potential issues and optimize
 
 
    Then open `http://localhost:8090` in your browser. 
+
+   This is all what you need to analyze your SQL queries.
+![img.png](demo.png)
+
+
 
 ## Usage
 
