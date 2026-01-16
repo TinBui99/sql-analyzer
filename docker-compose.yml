@@ -1,0 +1,13 @@
+services:
+  app:
+    container_name: sql_analyzer_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8090:80"
+    env_file:
+      - .env
+    volumes:
+      - .:/var/www/html
+    restart: unless-stopped

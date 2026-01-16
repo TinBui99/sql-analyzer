@@ -1,0 +1,26 @@
+# IDE
+.vscode/
+.idea/
+
+# Dependencies
+/vendor/
+
+# Environment
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Composer
+composer.phar
+
+# Testing
+/coverage/
+/tests/_output/
+
+# Local development
+.phpunit.result.cache
